@@ -1,70 +1,198 @@
-# Getting Started with Create React App
+# 🌌 StrawVerse · 个人主页
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+一个视觉丰富、交互感强的个人主页项目，采用 **React**、**Tailwind CSS** 和 **Framer Motion** 构建，灵感来自像素风的宇宙幻想世界。  
+✨ 在线地址：[www.strawverse.top](https://www.strawverse.top)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧠 项目特色
 
-### `npm start`
+- ⚛️ 现代技术栈：React + Tailwind CSS + Framer Motion
+- 🌗 深浅色主题切换
+- 🌐 中英文语言切换
+- 🎨 动态背景（行星 + 星星）视差滚动
+- 🪐 自定义 Logo 动画（旋转 + 心跳）
+- 🛠️ 技能和项目展示区，交互动效丰富
+- 📱 移动端适配，响应式布局
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 技术栈
 
-### `npm test`
+| 层级      | 技术                   |
+|-----------|------------------------|
+| 前端开发  | React, Tailwind CSS    |
+| 动效动画  | Framer Motion          |
+| 部署方式  | Nginx + Certbot（HTTPS） |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 快速开始
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# 克隆项目
+git clone https://github.com/yourusername/strawverse-homepage.git
+cd strawverse-homepage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 安装依赖
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 启动开发环境
+npm start
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ 构建与部署
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# 构建生产版本
+npm run build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 上传 build 到服务器
+scp -r build/ user@your-server-ip:/opt/personal-homepage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 配置 nginx（示例）
+# /etc/nginx/sites-available/www.strawverse.top
+```
 
-## Learn More
+✅ 支持 Let's Encrypt 生成 HTTPS  
+✅ 可部署至阿里云、Vercel、Netlify 等平台
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 项目结构
 
-### Code Splitting
+```
+.
+├── public/                 # 静态资源
+├── src/
+│   ├── components/         # 各模块组件
+│   ├── assets/             # 图片、Logo
+│   └── index.js
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── build/                 # 生产环境输出目录
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🧑‍🎨 作者
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**TsukiLullaby（XiaJia）**  
+- 来自中国的计算机与设计方向学生  
+- 📧 398670671@qq.com  
+- 🐙 [GitHub 主页](https://github.com/TsukiLullaby)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📜 协议
 
-### Advanced Configuration
+免费使用和修改，但请注明作者和仓库链接。  
+**TsukiLullaby 保留所有权利。**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+> 如果你喜欢这个项目，欢迎 Star ⭐ 或 Fork 制作属于你自己的宇宙主页！
+```
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# 🌌 StrawVerse · Personal Homepage
 
-### `npm run build` fails to minify
+A visually rich and interactive personal homepage built with **React**, **Tailwind CSS**, and **Framer Motion**, inspired by the concept of a pixelated cosmic universe.  
+> ✨ Hosted at [www.strawverse.top](https://www.strawverse.top)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🧠 Features
+
+- ⚛️ Modern stack: React + Tailwind CSS + Framer Motion
+- 🌗 Light/Dark mode toggle
+- 🌐 Language switch: 中文 / English
+- 🎨 Animated background with planets, stars & parallax scrolling
+- 🪐 Custom logo with 3D rotation and heartbeat animation
+- 🛠️ Skills & Projects section with interactive transitions
+- 📱 Fully responsive and mobile-friendly
+
+---
+
+## 📦 Tech Stack
+
+| Layer        | Tech                     |
+|--------------|--------------------------|
+| Frontend     | React, Tailwind CSS      |
+| Animation    | Framer Motion            |
+| Deployment   | Nginx + Certbot (HTTPS)  |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone this repo
+git clone https://github.com/yourusername/strawverse-homepage.git
+cd strawverse-homepage
+
+# 2. Install dependencies
+npm install
+
+# 3. Start local dev server
+npm start
+```
+
+---
+
+## 🛠️ Build & Deploy
+
+```bash
+# Build optimized production version
+npm run build
+
+# Upload /build to your server
+scp -r build/ user@your-server-ip:/opt/personal-homepage
+
+# Configure nginx (example)
+# /etc/nginx/sites-available/www.strawverse.top
+```
+
+✅ Supports HTTPS with Let's Encrypt  
+✅ Can be deployed on Alibaba Cloud, Vercel, Netlify, etc.
+
+---
+
+## 📁 Project Structure
+
+```
+.
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # Homepage, About, Skills, etc.
+│   ├── assets/             # Logo and images
+│   └── index.js
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── build/                 # (auto-generated for production)
+```
+---
+
+## 🧑‍🎨 Author
+
+**TsukiLullaby (XiaJia)**  
+- CS & Design Student based in China  
+- 📧 [398670671@qq.com](mailto:398670671@qq.com)  
+- 🐙 [GitHub Profile](https://github.com/TsukiLullaby)
+
+---
+
+## 📜 License
+
+Free to use and modify, but please provide attribution and link back to this repository.  
+TsukiLullaby reserves all rights.
+
+---
+
+> If you like this project, please ⭐️ Star it, or fork & build your own cosmic identity 💫
+
+```
