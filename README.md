@@ -95,7 +95,7 @@ scp -r build/ user@your-server-ip:/opt/personal-homepage
 ---
 
 > 如果你喜欢这个项目，欢迎 Star ⭐ 或 Fork 制作属于你自己的宇宙主页！
-```
+
 ---
 
 # 🌌 StrawVerse · Personal Homepage
@@ -195,4 +195,4 @@ TsukiLullaby reserves all rights.
 
 > If you like this project, please ⭐️ Star it, or fork & build your own cosmic identity 💫
 
-```
+---
