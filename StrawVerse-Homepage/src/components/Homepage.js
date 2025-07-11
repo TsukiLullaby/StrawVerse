@@ -41,16 +41,19 @@ const Homepage = ({ isDarkMode, toggleTheme, language, toggleLanguage }) => {
 
   // 显示关于草莓宇宙页面的函数
   const showStrawVerseAbout = () => {
+    window.scrollTo(0, 0); // 重置滚动位置到顶部
     setShowAboutStrawVerse(true);
   };
   
   // 返回主页的函数
   const backToHome = () => {
+    window.scrollTo(0, 0); // 重置滚动位置到顶部
     setShowAboutStrawVerse(false);
     setShowAboutSRMS(false);
   };
   
   const showSRMSPage = () => {
+    window.scrollTo(0, 0); // 重置滚动位置到顶部
     setShowAboutSRMS(true);
   };
   

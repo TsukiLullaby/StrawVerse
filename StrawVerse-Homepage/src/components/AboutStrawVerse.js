@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { FaArrowLeft, FaLightbulb, FaRegLightbulb } from 'react-icons/fa';
 
 const AboutStrawVerse = ({ isDarkMode, language, onBack, toggleTheme, toggleLanguage }) => {
   const { scrollYProgress } = useScroll();
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   
   // 视差动画变换
   const planetTransform1 = useTransform(scrollYProgress, [0, 1], [0, -200]);
